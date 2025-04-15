@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "@/app/global.css";
+import Sidenav from "./component/sidenav";
 
 export const metadata: Metadata = {
   title: {
@@ -16,8 +17,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        {children}
+      <body className="flex h-screen flex-col md:flex-row md:overflow-hidden">
+        <header className="w-full flex-none md:w-90">
+          <Sidenav />
+        </header>
+        <main className="flex-grow p-6 md:overflow-y-auto md:p-12"> 
+          {children}
+        </main>
       </body>
     </html>
   );
