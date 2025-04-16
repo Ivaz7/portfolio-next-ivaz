@@ -2,6 +2,14 @@ import type { Project } from "./definition";
 
 export const projectData: Project[] = [
   {
+    name: "Dashboad Acme",
+    linkWebsite: "https://nextjs-dashboard-nu-pearl-48.vercel.app/",
+    linkPreview: "https://github.com/Ivaz7/nextJs-course/tree/main/nextjs-dashboard",
+    img: "/project/dashboard.png",
+    mostUsedTools: ["React", "Typescript", "TailwindCSS", "Next.Js"],
+    allTools: ["Vercel"],
+  },
+  {
     name: "VazzChat App",
     linkWebsite: "https://vazzchat.vercel.app/",
     linkPreview: "https://github.com/Ivaz7/typescript-tailwind-exercise/tree/main/chat-room",
