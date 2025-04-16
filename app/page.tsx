@@ -4,9 +4,9 @@ export const metadata: Metadata = {
   title: "About | Ivaz Reza",
 };
 
-export default function Home() {
+export default function About() {
   return(
-    <div>
+    <div className="min-h-screen">
       About Page
     </div>
   )

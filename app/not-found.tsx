@@ -4,6 +4,11 @@ import {
 import clsx from "clsx"
 import { dmsans } from "./lib/font"
 import Navlink from "./component/nav-link"
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Ivaz Reza Portfolio",
+};
 
 export default function NotFound() {
   return (

@@ -20,9 +20,7 @@ export default function RootLayout({
           <Sidenav />
         </header>
         <main className="flex-grow md:overflow-y-auto"> 
-          <div className="min-h-screen p-6 md:p-12">
-            {children}
-          </div>
+          {children}
           <Footer />
         </main>
       </body>

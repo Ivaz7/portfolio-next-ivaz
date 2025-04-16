@@ -17,3 +17,20 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* For Chrome, Safari, Edge, Opera */
+::-webkit-scrollbar-track {
+  background: oklch(37.4% 0.01 67.558); 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: oklch(21.6% 0.006 56.043);
+  border-radius: 9999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+/* For Firefox */
+* {
+  scrollbar-color: oklch(21.6% 0.006 56.043) oklch(37.4% 0.01 67.558);
+}

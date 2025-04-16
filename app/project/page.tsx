@@ -6,7 +6,7 @@ export const metadata: Metadata = {
 
 export default function Project() {
   return(
-    <div>
+    <div className="min-h-screen">
       Project Page
     </div>
   )
