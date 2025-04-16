@@ -27,10 +27,10 @@ export default function Quote() {
       className="flex flex-col text-center bg-gradient-to-br from-red-900 via-red-800 to-red-700 p-7 gap-5 rounded-lg cursor-pointer transition-all duration-150 ease-in-out hover:scale-102"
       title="Click to copy"
     >
-      <h1 className={clsx(lusitana.className, "italic text-4xl")}>
+      <h1 className={clsx(lusitana.className, "italic text-2xl sm:text-3xl md:text-4xl")}>
         &ldquo;{quoteData[index].quote}&rdquo;
       </h1>
-      <p className={clsx(inter.className, "text-lg self-end")}>
+      <p className={clsx(inter.className, "text-xs sm:text-base md:text-lg self-end")}>
         - {quoteData[index].from}
       </p>
     </section>
