@@ -7,7 +7,9 @@ export default function Sidenav() {
   return (
     <nav className={clsx("flex h-full flex-col gap-3 px-4 py-4 md:px-3", dmsans.className)}>
       <Introduction />
-      <Navlink />
+      <nav className="flex flex-row sm:flex-col gap-3">
+        <Navlink title={true} />
+      </nav>
     </nav>
   )
 }

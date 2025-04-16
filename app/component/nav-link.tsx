@@ -27,11 +27,15 @@ const link = [
   }
 ]
 
-export default function Navlink() {
+export default function Navlink({
+  title
+}: {
+  title: boolean
+}) {
   const pathname = usePathname();
 
   return (
-    <nav className="flex flex-row sm:flex-col gap-3">
+    <>
       {link.map((val, inx) => {
         const LinkIcon = val.icon;
         return (
@@ -46,11 +50,11 @@ export default function Navlink() {
             )}
           >
             <LinkIcon className="w-10 h-10" />
-            <p className="text-3xl hidden sm:block">
+            {title && <p className="text-3xl hidden sm:block">
               {val.name}
-            </p>
+            </p>}
           </Link>)
       })}
-    </nav>
+    </>
   )
 }
