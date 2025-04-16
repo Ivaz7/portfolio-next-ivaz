@@ -17,7 +17,7 @@ export default function Introduction() {
       </div>
       <div className="flex flex-col">
         <p className={clsx("text-base sm:text-lg md:text-xl font-bold tracking-wide text-center", poppins.className)}>
-          Hi, I&apos;m M. Ivaz Reza H.
+          Hi, I&apos;m M. &ldquo;Ivaz&rdquo; Reza H.
         </p>
         <p className="text-sm sm:text-base md:text-lg font-medium text-center text-zinc-300">
           I&apos;m Front End Web Dev
