@@ -7,8 +7,10 @@ export default function Footer() {
         This Portfolio Website full code is available at my 
       </p>
       <Link 
+        href="https://github.com/Ivaz7/portfolio-next-ivaz"
         className="text-stone-500 hover:underline" 
-        href={"#"}
+        rel="noopener noreferrer"
+        target="_blank"
       >
         Github
       </Link>
