@@ -3,10 +3,7 @@ import "@/app/global.css";
 import Sidenav from "./component/sidenav";
 
 export const metadata: Metadata = {
-  title: {
-    default: "Ivaz Portfolio Website",
-    template: "%s | Ivaz Portfolio Website", 
-  },  description: 'Portfolio Website About Muhammad "Ivaz" Reza Heryanto',
+  description: 'Portfolio Website About Muhammad "Ivaz" Reza Heryanto',
   icons: "/mybrandnew.svg",
 };
 
