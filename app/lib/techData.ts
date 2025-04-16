@@ -44,7 +44,7 @@ export const techData: Technology[] = [
     bdrColor: "rgb(169, 169, 169)"    
   },
   {
-    name: "TanStack",
+    name: "TanStackQ",
     img: "/iconTech/tanstack.png", 
     bgColor: "rgba(255, 150, 115, 0.2)",
     bdrColor: "rgb(69, 173, 28)"
@@ -105,7 +105,7 @@ export const techData: Technology[] = [
   },
   {
     name: "Pokemon API",
-    img: "/iconTech/pokemon.png",
+    img: "/iconTech/pokeapi.png",
     bgColor: "rgba(255, 201, 5, 0.2)",
     bdrColor: "rgb(62, 106, 163)"
   },

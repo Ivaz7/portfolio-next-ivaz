@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import ProjectItems from "../component/project/project-iitems";
 
 export const metadata: Metadata = {
   title: "Project | Ivaz Reza",
@@ -7,7 +8,7 @@ export const metadata: Metadata = {
 export default function Project() {
   return(
     <div className="min-h-screen">
-      Project Page
+      <ProjectItems />
     </div>
   )
 }
