@@ -1,7 +1,7 @@
 'use client'
 
 import {
-  CreditCardIcon,
+  WindowIcon,
   UserIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline"
@@ -18,7 +18,7 @@ const link = [
   {
     name: "Project",
     href: "/project",
-    icon: CreditCardIcon,
+    icon: WindowIcon,
   },
   {
     name: "Contact",

@@ -1,16 +1,16 @@
 import { Certification } from "./definition";
 
-export const dataCertificate: Certification[] = [
+export const certificationData: Certification[] = [
   {
-    img: "/responsiveCertificate.jpg",
+    img: "/certification/responsiveCertificate.jpg",
     link: "https://www.freecodecamp.org/certification/ivazg7/responsive-web-design",
   },
   {
-    img: "/javascriptCertificate.jpg",
+    img: "/certification/javascriptCertificate.jpg",
     link: "https://www.freecodecamp.org/certification/ivazg7/javascript-algorithms-and-data-structures-v8",
   },
   {
-    img: "/frontEndCertificate.jpg",
+    img: "/certification/frontEndCertificate.jpg",
     link: "https://www.freecodecamp.org/certification/ivazg7/front-end-development-libraries",
   },
 ]

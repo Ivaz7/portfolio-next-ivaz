@@ -1,6 +1,6 @@
 import type { Project } from "./definition";
 
-export const myProjectData: Project[] = [
+export const projectData: Project[] = [
   {
     name: "VazzChat App",
     linkWebsite: "https://vazzchat.vercel.app/",

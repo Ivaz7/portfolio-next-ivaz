@@ -1,6 +1,6 @@
 import type { Technology } from "./definition";
 
-export const dataTech: Technology[] = [
+export const techData: Technology[] = [
   {
     name: "HTML",
     img: "/iconTech/html.png",
@@ -38,16 +38,16 @@ export const dataTech: Technology[] = [
     bdrColor: "rgb(82, 192, 222)"
   },
   {
-    name: "Next.js",
+    name: "Next.Js",
     img: "/iconTech/next.png", 
-    bgColor: "rgba(36, 36, 36, 0.2)",
-    bdrColor: "rgb(36, 36, 36)"    
+    bgColor: "rgba(169, 169, 169, 0.2)",
+    bdrColor: "rgb(169, 169, 169)"    
   },
   {
-    name: "TanStack Query",
+    name: "TanStack",
     img: "/iconTech/tanstack.png", 
-    bgColor: "rgba(255, 94, 77, 0.2)",
-    bdrColor: "rgb(0, 128, 0)"
+    bgColor: "rgba(255, 150, 115, 0.2)",
+    bdrColor: "rgb(69, 173, 28)"
   },
   {
     name: "Zustand",
@@ -82,8 +82,8 @@ export const dataTech: Technology[] = [
   {
     name: "Vercel",
     img: "/iconTech/vercel.png",
-    bgColor: "rgba(0, 0, 0, 0.2)",
-    bdrColor: "rgb(0, 0, 0)"
+    bgColor: "rgba(169, 169, 169, 0.2)",
+    bdrColor: "rgb(169, 169, 169)"
   },
   {
     name: "Firebase(RD)",
