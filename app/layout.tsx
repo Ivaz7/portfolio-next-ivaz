@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "@/app/global.css";
 import Sidenav from "./component/sidenav";
+import Footer from "./component/footer";
 
 export const metadata: Metadata = {
   description: 'Portfolio Website About Muhammad "Ivaz" Reza Heryanto',
@@ -18,8 +19,11 @@ export default function RootLayout({
         <header className="w-full flex-none md:w-90">
           <Sidenav />
         </header>
-        <main className="flex-grow p-6 md:overflow-y-auto md:p-12"> 
-          {children}
+        <main className="flex-grow md:overflow-y-auto"> 
+          <div className="min-h-screen p-6 md:p-12">
+            {children}
+          </div>
+          <Footer />
         </main>
       </body>
     </html>
