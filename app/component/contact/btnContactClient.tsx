@@ -13,12 +13,12 @@ export default function BtnContactClient() {
 
   const handleDownload = () => {
     setDownloaded(true);
-    // const link = document.createElement('a');
-    // link.href = '/cv.pdf'; 
-    // link.download = 'CV.pdf';
-    // document.body.appendChild(link);
-    // link.click();
-    // document.body.removeChild(link);
+    const link = document.createElement('a');
+    link.href = '/IvazRezaCV.pdf'; 
+    link.download = 'IvazRezaCV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
 
     setTimeout(() => setDownloaded(false), 2000);
   };
