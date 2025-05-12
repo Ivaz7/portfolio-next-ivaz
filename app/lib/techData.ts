@@ -26,6 +26,18 @@ export const techData: Technology[] = [
     bdrColor: "rgb(25, 117, 209)"
   },
   {
+    name: "NodeJs",
+    img: "/iconTech/nodejs.png",
+    bgColor: "rgba(29, 163, 103, 0.2)",
+    bdrColor: "rgb(29, 163, 103)"
+  },
+  {
+    name: "Git",
+    img: "/iconTech/git.png",
+    bgColor: "rgba(242, 82, 29, 0.2)",
+    bdrColor: "rgb(242, 82, 29)"
+  },
+  {
     name: "TailwindCSS",
     img: "/iconTech/tailwind.png",
     bgColor: "rgba(0, 171, 194, 0.2)",
@@ -36,6 +48,30 @@ export const techData: Technology[] = [
     img: "/iconTech/react.png",
     bgColor: "rgba(82, 192, 222, 0.2)",
     bdrColor: "rgb(82, 192, 222)"
+  },
+  {
+    name: "PostgreSQL",
+    img: "/iconTech/psql.png",
+    bgColor: "rgba(4, 118, 189, 0.2)",
+    bdrColor: "rgb(4, 118, 189)"
+  },
+  {
+    name: "Mongodb",
+    img: "/iconTech/mongodb.png",
+    bgColor: "rgba(88, 171, 84, 0.2)",
+    bdrColor: "rgb(88, 171, 84)"
+  },
+  {
+    name: "Mongoose",
+    img: "/iconTech/mongoose.png",
+    bgColor: "rgba(184, 28, 28, 0.2)",
+    bdrColor: "rgb(184, 28, 28)"
+  },
+  {
+    name: "ExpressJs",
+    img: "/iconTech/expressjs.png",
+    bgColor: "rgba(169, 169, 169, 0.2)",
+    bdrColor: "rgb(169, 169, 169)"
   },
   {
     name: "Next.Js",

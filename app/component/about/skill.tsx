@@ -10,7 +10,7 @@ export default function Skill() {
     <ContainerSection title="Skills">
       <div className="flex flex-wrap gap-2 justify-center items-center rounded-md">
         {techData.map((val: Technology, inx: number) => {
-          if (inx > 14) return null;
+          if (inx > 20) return null;
           const { name, img, bgColor, bdrColor } = val;
           return (
             <div 

@@ -20,7 +20,7 @@ export default function Introduction() {
           Hi, I&apos;m M. &ldquo;Ivaz&rdquo; Reza H.
         </p>
         <p className="text-sm sm:text-base md:text-lg font-medium text-center text-zinc-300">
-          I&apos;m Front End Web Dev
+          I&apos;m a Web Developer
         </p>
         <div className="text-sm sm:text-base md:text-lg font-medium text-center text-zinc-300 flex flex-row gap-0.5 justify-center items-center">
           <MapPinIcon className="w-4 h-4 text-zinc-300" />
