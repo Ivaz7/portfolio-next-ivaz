@@ -13,4 +13,12 @@ export const certificationData: Certification[] = [
     img: "/certification/frontEndCertificate.jpg",
     link: "https://www.freecodecamp.org/certification/ivazg7/front-end-development-libraries",
   },
+  {
+    img: "/certification/relationalDBCertificate.jpg",
+    link: "https://www.freecodecamp.org/certification/ivazg7/relational-database-v8",
+  },
+  {
+    img: "/certification/backendCertificate.jpg",
+    link: "https://www.freecodecamp.org/certification/ivazg7/back-end-development-and-apis",
+  },
 ]

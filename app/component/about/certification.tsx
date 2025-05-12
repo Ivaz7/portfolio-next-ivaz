@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Certification() {
   return (
     <ContainerSection title="Certification">
-      <div className="flex flex-col sm:flex-row md:flex-col lg:flex-row gap-3 items-center justify-center">
+      <div className="flex flex-col flex-wrap sm:flex-row md:flex-col lg:flex-row gap-3 items-center justify-center">
         {certificationData.map((val: Certification, inx: number) => {
           const { link, img } = val;
           return (
@@ -19,7 +19,7 @@ export default function Certification() {
               className="hover:scale-102 duration-150 ease-in-out"
             > 
               <Image 
-                width={400}
+                width={500}
                 height={250}
                 alt="Certification Image and Link preview"
                 src={img}
