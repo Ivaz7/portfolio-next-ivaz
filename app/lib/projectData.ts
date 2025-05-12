@@ -2,11 +2,19 @@ import type { Project } from "./definition";
 
 export const projectData: Project[] = [
   {
+    name: "Todovazz App",
+    linkWebsite: "https://todovazz-app.vercel.app/login",
+    linkPreview: "https://github.com/Ivaz7/todovazz-app",
+    img: "/project/todovazz.png",
+    mostUsedTools: ["React", "Typescript", "TailwindCSS", "Next.Js", "Mongodb", "Mongoose", "TanStackQ"],
+    allTools: ["Vercel"],
+  },
+  {
     name: "Dashboad Acme",
     linkWebsite: "https://nextjs-dashboard-nu-pearl-48.vercel.app/",
     linkPreview: "https://github.com/Ivaz7/nextJs-course/tree/main/nextjs-dashboard",
     img: "/project/dashboard.png",
-    mostUsedTools: ["React", "Typescript", "TailwindCSS", "Next.Js"],
+    mostUsedTools: ["React", "Typescript", "TailwindCSS", "Next.Js", "PostgreSQL"],
     allTools: ["Vercel"],
   },
   {
