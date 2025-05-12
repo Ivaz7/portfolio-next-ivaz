@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import ContainerSection from "./containerSection";
-import { poppins } from "@/app/lib/font";
+import { poppins } from "@/lib/font";
 
 export default function Description() {
   return (

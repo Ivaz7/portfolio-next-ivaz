@@ -1,4 +1,4 @@
-import { lusitana, poppins } from "@/app/lib/font";
+import { lusitana, poppins } from "@/lib/font";
 import { IconName, IconPrefix } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import clsx from "clsx";

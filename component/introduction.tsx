@@ -1,4 +1,4 @@
-import { poppins } from "../lib/font"
+import { poppins } from "@/lib/font"
 import { clsx } from "clsx"
 import Image from "next/image"
 import Flag from 'react-world-flags'

@@ -1,6 +1,6 @@
-import { certificationData } from "@/app/lib/certificationData";
+import { certificationData } from "@/lib/certificationData";
 import ContainerSection from "./containerSection";
-import type { Certification } from "@/app/lib/definition";
+import type { Certification } from "@/lib/definition";
 import Link from "next/link";
 import Image from "next/image";
 

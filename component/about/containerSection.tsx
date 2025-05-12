@@ -1,4 +1,4 @@
-import { lusitana, inter } from "@/app/lib/font";
+import { lusitana, inter } from "@/lib/font";
 import clsx from "clsx";
 
 export default function ContainerSection({

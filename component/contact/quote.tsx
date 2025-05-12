@@ -1,24 +1,27 @@
 'use client'
 
-import { inter, lusitana } from "@/app/lib/font";
-import { quoteData } from "@/app/lib/quoteData";
+import { inter, lusitana } from "@/lib/font";
+import { quoteData } from "@/lib/quoteData";
 import clsx from "clsx";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
+import { useQuoteStore } from "@/lib/useQuoteStore";
 
 export default function Quote() {
-  const [index, setIndex] = useState<number>(0);
+  const index = useQuoteStore((state) => state.index);
+  const setIndex = useQuoteStore((state) => state.setIndex);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setIndex((prev) => (prev + 1) % quoteData.length);
+      const nextIndex = (index + 1) % quoteData.length;
+      setIndex(nextIndex);
     }, 5000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [setIndex, index]);
 
   const handleCopy = () => {
     const quote = `“${quoteData[index].quote}”\t- ${quoteData[index].from}`;
-    navigator.clipboard.writeText(quote)
+    navigator.clipboard.writeText(quote);
   };
 
   return (

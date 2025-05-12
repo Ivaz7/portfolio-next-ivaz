@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import "@/app/global.css";
-import Sidenav from "./component/sidenav";
-import Footer from "./component/footer";
+import Sidenav from "@/component/sidenav";
+import Footer from "@/component/footer";
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { config } from '@fortawesome/fontawesome-svg-core';
 config.autoAddCss = false;
 
-import '@/app/lib/fontawesome';
+import '@/lib/fontawesome';
 
 export const metadata: Metadata = {
   description: 'Portfolio Website About Muhammad "Ivaz" Reza Heryanto',

@@ -1,7 +1,10 @@
+import Description from "@/component/about/description";
+import Skill from "@/component/about/skill";
+import Certification from "@/component/about/certification";
 import type { Metadata } from "next";
-import Description from "../component/about/description";
-import Skill from "../component/about/skill";
-import Certification from "../component/about/certification";
+// import Description from "../component/about/description";
+// import Skill from "../component/about/skill";
+// import Certification from "../component/about/certification";
 
 export const metadata: Metadata = {
   title: "About | Ivaz Reza",

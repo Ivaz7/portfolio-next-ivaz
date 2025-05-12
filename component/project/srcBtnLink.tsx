@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import clsx from "clsx";
-import { inter } from "@/app/lib/font";
+import { inter } from "@/lib/font";
 
 export default function SourceCodeLinkBtn({
   href

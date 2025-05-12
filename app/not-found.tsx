@@ -2,8 +2,8 @@ import {
   FaceFrownIcon
 } from "@heroicons/react/24/outline"
 import clsx from "clsx"
-import { dmsans } from "./lib/font"
-import Navlink from "./component/nav-link"
+import { dmsans } from "../lib/font"
+import Navlink from "@/component/nav-link"
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {

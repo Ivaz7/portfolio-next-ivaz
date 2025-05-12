@@ -1,6 +1,6 @@
+import ContacMain from "@/component/contact/contactMain";
+import Quote from "@/component/contact/quote";
 import type { Metadata } from "next";
-import ContacMain from "../component/contact/contactMain";
-import Quote from "../component/contact/quote";
 
 export const metadata: Metadata = {
   title: "Contact | Ivaz Reza",

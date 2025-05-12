@@ -1,11 +1,11 @@
-import type { Project } from "@/app/lib/definition";
-import { projectData } from "@/app/lib/projectData";
+import type { Project } from "@/lib/definition";
+import { projectData } from "@/lib/projectData";
 import Link from "next/link";
 import ImgProject from "./imgProject";
 import Tools from "./tools";
 import SourceCodeLinkBtn from "./srcBtnLink";
 import clsx from "clsx";
-import { lusitana } from "@/app/lib/font";
+import { lusitana } from "@/lib/font";
 
 export default function ProjectItems() {
   return (

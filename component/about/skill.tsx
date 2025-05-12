@@ -1,9 +1,9 @@
-import { techData } from "@/app/lib/techData";
+import { techData } from "@/lib/techData";
 import ContainerSection from "./containerSection";
 import Image from "next/image";
 import clsx from "clsx";
-import { poppins } from "@/app/lib/font";
-import type { Technology } from "@/app/lib/definition";
+import { poppins } from "@/lib/font";
+import type { Technology } from "@/lib/definition";
 
 export default function Skill() {
   return (

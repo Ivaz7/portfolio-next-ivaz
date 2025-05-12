@@ -1,4 +1,4 @@
-import { dmsans } from "../lib/font"
+import { dmsans } from "@/lib/font"
 import { clsx } from "clsx"
 import Introduction from "./introduction"
 import Navlink from "./nav-link"

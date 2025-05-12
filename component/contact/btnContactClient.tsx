@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile } from '@fortawesome/free-regular-svg-icons';
 import { CheckIcon } from '@heroicons/react/24/solid';
 import clsx from "clsx";
-import { poppins } from "@/app/lib/font";
+import { poppins } from "@/lib/font";
 
 export default function BtnContactClient() {
   const [copied, setCopied] = useState(false);

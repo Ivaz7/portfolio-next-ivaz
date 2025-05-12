@@ -1,5 +1,5 @@
-import { dmsans } from "@/app/lib/font";
-import { searchTectData } from "@/app/lib/utils"
+import { dmsans } from "@/lib/font";
+import { searchTectData } from "@/lib/utils"
 import clsx from "clsx";
 import Image from "next/image";
 
