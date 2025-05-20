@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function Project() {
   return(
-    <div className="min-h-screen">
+    <div className="min-h-screen w-full px-4 py-4.5 md:px-3">
       <ProjectItems />
     </div>
   )

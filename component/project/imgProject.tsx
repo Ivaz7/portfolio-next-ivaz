@@ -6,7 +6,7 @@ export default function ImgProject({
   src: string
 }) {
   return (
-    <div className="relative max-w-full max-h-[40vw] w-83 h-40 xl:w-120 xl:h-60">
+    <div className="relative w-full aspect-[20/9]">
       <Image 
         fill
         className="object-cover object-top rounded-lg"
