@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function About() {
   return(
-    <div className="min-h-screen px-4 py-4.5 md:px-3 flex flex-col gap-4 mb-10">
+    <div className="min-h-screen px-4 py-0 md:py-4.5 md:px-3 flex flex-col gap-4 mb-10">
       <Description />
       <Skill />
       <Certification />
