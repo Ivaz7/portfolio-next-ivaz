@@ -14,9 +14,9 @@ export default function Tools({
     <section className="flex flex-col xl:flex-row justify-between items-baseline xl:items-center">
       <div>
         <p className={clsx(dmsans.className)}>
-          Main
+          Main Tech
         </p>
-        <div className="flex flex-row justify-center flex-wrap gap-1">
+        <div className="flex flex-row justify-start flex-wrap gap-1">
           {mostUsed.map((val:string, inx:number) => {
             const dataMost = searchTectData(val);
             if (!dataMost) return null;
@@ -44,7 +44,7 @@ export default function Tools({
       {allTools && 
         <div>
           <p className={clsx(dmsans.className)}>
-            Other
+            Other Tech
           </p>
           <div className="flex flex-row flex-wrap gap-1">
             {allTools.map((val:string, inx:number) => {
