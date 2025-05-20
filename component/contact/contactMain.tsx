@@ -26,7 +26,7 @@ const btnContact: BtnContact[] = [
 
 export default function ContacMain() {
   return (
-    <section className="flex flex-col w-fit gap-3 p-3 bg-stone-900 rounded-lg">
+    <section className="flex flex-col w-fit gap-3 p-3 md:p-5 bg-stone-900 rounded-lg">
       <h1 className={clsx(lusitana.className, "text-2xl")}>
         Contact
       </h1>

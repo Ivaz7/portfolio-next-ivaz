@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function Contact() {
   return(
-    <div className="h-fit md:min-h-screen px-4 py-0 md:py-4.5  md:px-3 flex flex-col items-center justify-center gap-4 mb-10">
+    <div className="h-full md:min-h-screen px-4 py-0 md:py-4.5  md:px-3 flex flex-col items-center justify-center gap-4 mb-10">
       <ContacMain />
       <Quote />
     </div>
